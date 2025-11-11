@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "title": "An inspiring story collection for readers of all ages.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Adventure Tales",
+    "title": "Discover thrilling stories full of adventures.",
+    "price": 120,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Learning Guide",
+    "title": "A perfect guide for beginners and learners.",
+    "price": 90,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Motivational Book",
+    "title": "Boost your confidence and stay motivated.",
+    "price": 150,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Kids Learning",
+    "title": "Fun and educational content for kids.",
+    "price": 60,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Science Explorer",
+    "title": "Learn amazing science facts and experiments.",
+    "price": 130,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 7,
+    "name": "History of World",
+    "title": "Explore major events that shaped our world.",
+    "price": 110,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Cooking for Beginners",
+    "title": "Delicious and easy recipes to start cooking.",
+    "price": 80,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Programming in C++",
+    "title": "Learn the basics of programming with C++.",
+    "price": 200,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Java Essentials",
+    "title": "Step-by-step guide to learning Java programming.",
+    "price": 180,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Nature Wonders",
+    "title": "Explore the beauty and secrets of nature.",
+    "price": 95,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Digital Marketing 101",
+    "title": "Master the basics of online marketing.",
+    "price": 220,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Self Development",
+    "title": "Unlock your full potential with this guide.",
+    "price": 175,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Mindfulness",
+    "title": "Learn how to live in the moment and relax.",
+    "price": 70,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Business Strategy",
+    "title": "Enhance your entrepreneurial mindset.",
+    "price": 250,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Creative Writing",
+    "title": "Learn how to write stories that inspire.",
+    "price": 85,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Art & Design",
+    "title": "Unleash your creativity with art techniques.",
+    "price": 160,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 18,
+    "name": "Music Theory",
+    "title": "Understand the fundamentals of music.",
+    "price": 140,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Travel Guide",
+    "title": "Plan your perfect trips around the world.",
+    "price": 190,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Photography Tips",
+    "title": "Improve your photography with practical tips.",
+    "price": 100,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Health & Fitness",
+    "title": "Stay healthy with proven fitness techniques.",
+    "price": 210,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Yoga for Beginners",
+    "title": "Start your yoga journey with simple poses.",
+    "price": 95,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 23,
+    "name": "AI Revolution",
+    "title": "Understand the basics of Artificial Intelligence.",
+    "price": 270,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Data Science Intro",
+    "title": "Learn data analysis and visualization skills.",
+    "price": 230,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Cyber Security",
+    "title": "Protect yourself in the digital world.",
+    "price": 260,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Web Development",
+    "title": "Build responsive websites easily.",
+    "price": 240,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 27,
+    "name": "React Mastery",
+    "title": "Learn React step by step for frontend mastery.",
+    "price": 300,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 28,
+    "name": "English Grammar",
+    "title": "Improve your English speaking and writing.",
+    "price": 75,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Mathematics Made Easy",
+    "title": "Simplify your math learning journey.",
+    "price": 155,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Economics Simplified",
+    "title": "Understand economic principles easily.",
+    "price": 125,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740&q=80"
+  }
+]
