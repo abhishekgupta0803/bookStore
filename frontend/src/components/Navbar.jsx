@@ -39,7 +39,7 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/" >Home</Link>
       </li>
       <li>
         <Link to="/courses">Course</Link>
@@ -48,8 +48,8 @@ const Navbar = () => {
         <Link to="/contact">Contact</Link>
       </li>
       <li>
-        <a>About</a>
-      </li>
+        <Link to="/about">About</Link>
+      </li> 
     </>
   );
   return (
@@ -57,7 +57,7 @@ const Navbar = () => {
       <div
         className={`navbar bg-base-200 shadow-sm max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0  z-50 dark:bg-slate-900 dark:text-white ${
           sticky
-            ? "sticky-navbar shadow-md bg-base-300 duration-300 transition-all ease-in-out  dark:bg-slate-800 dark:text-white"
+            ? "sticky-navbar shadow-md bg-base-300 duration-300 transition-all ease-in-out  dark:bg-slate-850 dark:text-white"
             : ""
         }`}
       >

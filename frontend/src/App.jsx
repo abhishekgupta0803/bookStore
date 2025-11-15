@@ -4,6 +4,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Courses from "./courses/Courses.jsx";
 import Signup from "./components/Signup.jsx";
 import Contact from "./contactus/Contact.jsx";
+import Aboutus from "./about/Aboutus.jsx";
 import { Toaster } from "react-hot-toast";
 import { useAuth } from "./context/AuthProvider.jsx";
 
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/courses" element={ authUser ? <Courses /> : <Navigate  to="/signup"/>} />
           <Route path="/signup" element={<Signup />} /> 
           <Route path="/contact" element={<Contact />} /> 
+           <Route path="/about" element={<Aboutus />} /> 
         </Routes>
         <Toaster />
       </div>
