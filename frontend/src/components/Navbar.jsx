@@ -39,16 +39,36 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <Link to="/" className="dark:text-white dark:hover:bg-slate-700 dark:hover:text-white">Home</Link>
+        <Link 
+          to="/" 
+          className="active:bg-transparent active:text-current focus:bg-transparent focus:text-current focus:outline-none dark:text-white dark:hover:bg-slate-700 dark:hover:text-white dark:active:bg-slate-700 dark:focus:bg-slate-700"
+        >
+          Home
+        </Link>
       </li>
       <li>
-        <Link to="/courses" className="dark:text-white dark:hover:bg-slate-700 dark:hover:text-white">Course</Link>
+        <Link 
+          to="/courses" 
+          className="active:bg-transparent active:text-current focus:bg-transparent focus:text-current focus:outline-none dark:text-white dark:hover:bg-slate-700 dark:hover:text-white dark:active:bg-slate-700 dark:focus:bg-slate-700"
+        >
+          Course
+        </Link>
       </li>
       <li>
-        <Link to="/contact" className="dark:text-white dark:hover:bg-slate-700 dark:hover:text-white">Contact</Link>
+        <Link 
+          to="/contact" 
+          className="active:bg-transparent active:text-current focus:bg-transparent focus:text-current focus:outline-none dark:text-white dark:hover:bg-slate-700 dark:hover:text-white dark:active:bg-slate-700 dark:focus:bg-slate-700"
+        >
+          Contact
+        </Link>
       </li>
       <li>
-        <Link to="/about" className="dark:text-white dark:hover:bg-slate-700 dark:hover:text-white">About</Link>
+        <Link 
+          to="/about" 
+          className="active:bg-transparent active:text-current focus:bg-transparent focus:text-current focus:outline-none dark:text-white dark:hover:bg-slate-700 dark:hover:text-white dark:active:bg-slate-700 dark:focus:bg-slate-700"
+        >
+          About
+        </Link>
       </li> 
     </>
   );
@@ -63,7 +83,7 @@ const Navbar = () => {
       >
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden active:bg-transparent focus:bg-transparent focus:outline-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -154,7 +174,7 @@ const Navbar = () => {
           ) : (
             <div>
               <a
-                className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+                className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 active:bg-slate-800 focus:bg-slate-800 focus:outline-none duration-300 cursor-pointer"
                 onClick={() =>
                   document.getElementById("my_modal_3").showModal()
                 }

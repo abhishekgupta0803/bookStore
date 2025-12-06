@@ -1,12 +1,15 @@
 import React from "react";
+import { getBookImage } from "../utils/bookImages";
 
 const Cards2 = ({ item }) => {
+  const bookImage = getBookImage(item.name) || item.image;
+  
   return (
     <>
       <div className="mt-4 my-3 p-3">
         <div className="card w-92 bg-base-100 shadow-xl hover:scale-105 duration-200  dark:bg-slate-900 dark:text-white dark:border ">
           <figure>
-            <img src={item.image} alt="book" />
+            <img src={bookImage} alt={item.name} className="w-full h-64 object-cover" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">

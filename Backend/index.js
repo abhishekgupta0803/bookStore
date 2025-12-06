@@ -12,6 +12,10 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
+app.get('/', (req, res) => {
+  res.send('server is working');
+});
+
 const mongoose = require("mongoose");
 // connect mongodb
 const URI = process.env.MONGODBURI || process.env.LOCALURI;

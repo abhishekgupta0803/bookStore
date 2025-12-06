@@ -8,7 +8,7 @@ const Banner = () => {
           <div className="space-y-12">
             <h1 className="text-4xl font-bold">
               Hello, Welcomes here to learn Something
-              <span className="text-pink-500"> new everyday!!!</span>
+              <span className="colorful-text"> new everyday!!!</span>
             </h1>
             <p className="text-xl ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
