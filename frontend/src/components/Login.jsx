@@ -5,6 +5,7 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import { useDarkMode } from "../hooks/useDarkMode";
 import { useAuth } from "../context/AuthProvider";
+import { API_ENDPOINTS } from "../config/api";
 
 const Login = () => {
   const [theme, toggleTheme] = useDarkMode();
@@ -23,7 +24,7 @@ const Login = () => {
   };
 
   await axios
-    .post("http://localhost:4000/user/login", userInfo)
+    .post(API_ENDPOINTS.USER_LOGIN, userInfo)
     .then((res) => {
       console.log(res.data);
 

@@ -6,6 +6,7 @@ import Cards from "./Cards";
 import { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
+import { API_ENDPOINTS } from "../config/api";
 
 const Freebook = () => {
   const [book, setBook] = useState([]);
@@ -13,7 +14,7 @@ const Freebook = () => {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/book");
+        const res = await axios.get(API_ENDPOINTS.GET_ALL_BOOKS);
 
         const data = res.data.filter((data) => data.category === "Free");
         setBook(data);

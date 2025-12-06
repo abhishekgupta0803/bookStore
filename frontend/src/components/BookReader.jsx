@@ -5,6 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { API_ENDPOINTS } from "../config/api";
 
 const BookReader = () => {
   const { id } = useParams();
@@ -27,7 +28,7 @@ const BookReader = () => {
     try {
       setLoading(true);
       const res = await axios.post(
-        `http://localhost:4000/book/${id}/content`,
+        API_ENDPOINTS.GET_BOOK_CONTENT(id),
         { userId: authUser._id }
       );
       

@@ -4,6 +4,7 @@ import { getBookImage } from "../utils/bookImages";
 import { useAuth } from "../context/AuthProvider";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { API_ENDPOINTS } from "../config/api";
 
 const Cards2 = ({ item }) => {
   const bookImage = getBookImage(item.name) || item.image;
@@ -21,7 +22,7 @@ const Cards2 = ({ item }) => {
   const checkAccess = async () => {
     try {
       const res = await axios.post(
-        `http://localhost:4000/book/${item._id}/check-access`,
+        API_ENDPOINTS.CHECK_BOOK_ACCESS(item._id),
         { userId: authUser._id }
       );
       setHasAccess(res.data.hasAccess);

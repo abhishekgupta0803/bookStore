@@ -5,6 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { API_ENDPOINTS } from "../config/api";
 
 const Payment = () => {
   const { id } = useParams();
@@ -26,7 +27,7 @@ const Payment = () => {
   const fetchBookDetails = async () => {
     try {
       setLoading(true);
-      const res = await axios.get(`http://localhost:4000/book/${id}`);
+      const res = await axios.get(API_ENDPOINTS.GET_BOOK_BY_ID(id));
       setBook(res.data);
       
       // Check if book is free
@@ -40,7 +41,7 @@ const Payment = () => {
 
       // Check if already purchased
       const accessRes = await axios.post(
-        `http://localhost:4000/book/${id}/check-access`,
+        API_ENDPOINTS.CHECK_BOOK_ACCESS(id),
         { userId: authUser._id }
       );
       
@@ -72,7 +73,7 @@ const Payment = () => {
       setTimeout(async () => {
         try {
           // Grant access after payment
-          const res = await axios.post("http://localhost:4000/book/grant-access", {
+          const res = await axios.post(API_ENDPOINTS.GRANT_BOOK_ACCESS, {
             bookId: id,
             userId: authUser._id
           });

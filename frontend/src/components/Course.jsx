@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import { API_ENDPOINTS } from "../config/api";
 
 const Course = () => {
   const [book, setBook] = useState([]);
@@ -12,7 +13,7 @@ const Course = () => {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/book");
+        const res = await axios.get(API_ENDPOINTS.GET_ALL_BOOKS);
         console.log(res.data);
         setBook(res.data);
       } catch (err) {
