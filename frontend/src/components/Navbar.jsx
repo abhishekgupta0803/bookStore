@@ -39,16 +39,16 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <Link to="/" >Home</Link>
+        <Link to="/" className="dark:text-white dark:hover:bg-slate-700 dark:hover:text-white">Home</Link>
       </li>
       <li>
-        <Link to="/courses">Course</Link>
+        <Link to="/courses" className="dark:text-white dark:hover:bg-slate-700 dark:hover:text-white">Course</Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <Link to="/contact" className="dark:text-white dark:hover:bg-slate-700 dark:hover:text-white">Contact</Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <Link to="/about" className="dark:text-white dark:hover:bg-slate-700 dark:hover:text-white">About</Link>
       </li> 
     </>
   );
@@ -82,7 +82,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 dark:bg-slate-800 rounded-box z-1 mt-3 w-52 p-2 shadow dark:shadow-lg"
             >
               {navItems}
             </ul>
@@ -94,9 +94,9 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">{navItems}</ul>
           </div>
           <div className="hidden md:block">
-            <label className=" flex items-center gap-2 outline-none px-3 py-2 border rounded-md">
+            <label className=" flex items-center gap-2 outline-none px-3 py-2 border rounded-md dark:border-slate-700">
               <svg
-                className="h-[1em] opacity-50"
+                className="h-[1em] opacity-50 dark:opacity-70"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
@@ -115,7 +115,7 @@ const Navbar = () => {
                 type="search"
                 required
                 placeholder="Search"
-                className="grow outline-none dark:bg-slate-900 "
+                className="grow outline-none dark:bg-slate-900 dark:text-white dark:placeholder-gray-400"
               />
             </label>
           </div>
